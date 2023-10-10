@@ -1,14 +1,15 @@
 # React-Router-GobSearch  
 
-- createBrowserRouter  
-- createRoutesFromElements  
+setup  
+- createBrowserRouter    
+- createRoutesFromElements    
 - Route  
 - RouterProvider  
   
 layout  
-- RootLayout    
-- - <nav/>      
-  - - - <Outlet/>
+- RootLayout      
+- <nav/>        
+- <Outlet/>  
 
   
    
