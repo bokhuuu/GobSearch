@@ -5,11 +5,16 @@ setup
 - createRoutesFromElements    
 - Route  
 - RouterProvider  
+
+nested Routes  
   
 layout  
-- RootLayout      
-- <nav/>        
-- <Outlet/>  
+- RootLayout  
+- HelpLayout  
+  
+pages  
+- help  
+  
 
   
    
