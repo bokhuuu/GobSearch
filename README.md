@@ -10,13 +10,15 @@ nested Routes
   
 layout  
 - RootLayout (Navlinks)  
-- HelpLayout (Navlinks)
-- CareersLayout  
+- HelpLayout (Navlinks)  
+- CareersLayout (Navlinks)  
   
 pages  
 - help (FAQ , Contact)    
-- NotFound (custom 404 page)      
-- careers (loader function)(useLOaderData())    
+- NotFound (custom 404 page)        
+- careers (loader function)(useLoaderData)  
+  (useParams)
+    
 
 data   
 - db.json (data)  
