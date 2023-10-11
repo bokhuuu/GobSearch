@@ -17,7 +17,8 @@ pages
 - help (FAQ , Contact)    
 - NotFound (custom 404 page)        
 - careers (loader function)(useLoaderData)  
-  (useParams)
+  (useParams)  
+  (throw Error) -> CareersError(useRouterError) - errorElement
     
 
 data   
