@@ -73,6 +73,9 @@ main {
   border: 2px solid white;
   border-radius: 4px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  width: 80px
 }
 
 .help-layout nav a:hover {
@@ -148,3 +151,25 @@ form label span {
 }
 
 /* breadcrumbs */
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.breadcrumbs>* {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.breadcrumbs .crumb:after {
+  content: '>';
+  margin-left: 10px;
+}
+
+.breadcrumbs .crumb:last-child:after {
+  display: none;
+}
+
+.breadcrumbs .crumb a {
+  color: #ddd;
+}
