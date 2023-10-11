@@ -9,11 +9,12 @@ setup
 nested Routes  
   
 layout  
-- RootLayout  
-- HelpLayout  
+- RootLayout (Navlinks)  
+- HelpLayout (Navlinks)  
   
 pages  
-- help  
+- help (FAQ , Contact)  
+- NotFound (custom 404 page)  
   
 
   
