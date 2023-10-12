@@ -14,16 +14,16 @@ layout
 - CareersLayout (Navlinks)  
   
 pages  
-- help (FAQ , Contact)    
-- NotFound (custom 404 page)        
-- careers (loader function)(useLoaderData)  
+- help (FAQ , Contact)  
+- Contact (useActionData) (action function) (redirect()) (request object) (formData())  
+- NotFound (custom 404 page)          
+- careers (loader function)(useLoaderData)    
   (useParams)  
-  (throw Error) -> CareersError(useRouterError) - errorElement
-    
+  (throw Error) -> CareersError(useRouterError) - errorElement  
 
 data   
 - db.json (data)  
-- npm install -g json-server
+- npm install -g json-server  
 - json-server -w data/db.json    
 
 components  
