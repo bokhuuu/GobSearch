@@ -24,7 +24,10 @@ pages
 data   
 - db.json (data)  
 - npm install -g json-server
-- json-server -w data/db.json
+- json-server -w data/db.json    
+
+components  
+- Breadcrumbs (useLocation)  
   
 
   
