@@ -15,11 +15,12 @@ layout
   
 pages  
 - help (FAQ , Contact)  
-- Contact (useActionData) (action function) (redirect()) (request object) (formData())  
-- NotFound (custom 404 page)          
-- careers (loader function)(useLoaderData)    
+- Contact (useActionData) (action function) (redirect()) (request object) (formData())     
+- NotFound (custom 404 page)            
+- careers (loader function)(useLoaderData)      
   (useParams)  
-  (throw Error) -> CareersError(useRouterError) - errorElement  
+  (throw Error) -> CareersError(useRouterError) - errorElement
+  - About (Navigate component)    
 
 data   
 - db.json (data)  
